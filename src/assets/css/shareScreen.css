@@ -1,0 +1,250 @@
+.share-screen-btn {
+  width: 52px;
+  height: 11px;
+  margin: 5px;
+  font-family: "Lato";
+  font-size: 9px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #000062;
+  white-space: nowrap;
+  display: inline-block;
+  justify-content: space-between;
+}
+
+.share-users-container {
+  position: absolute;
+  left: 50%;
+  width: 600px;
+  height: 85px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #f7f7f7;
+  border-radius: 10px;
+  box-shadow: 0px 0px 4px #333;
+  padding: 0px 8px;
+  margin-top: 1.2%;
+}
+.sharer-users-container {
+  position: absolute;
+  left: 50%;
+  width: 600px;
+  height: 85px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+  box-shadow: 0px 0px 4px #333;
+  padding: 0px 8px;
+}
+.share-users-container p {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Lato";
+  font-size: 12px;
+}
+.share-btn-box {
+  width: auto;
+  font-family: "Lato";
+  text-align: center;
+}
+.share-btn-box p {
+  margin-top: 3px;
+}
+.share-stop-btn {
+  font-family: "Lato";
+  width: 48px;
+  height: 48px;
+  background: #b02318;
+  border-radius: 100%;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: bold;
+  outline: none;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.share-stop-btn:hover {
+  cursor: pointer;
+}
+
+.share-main-users {
+  width: auto;
+  height: auto;
+  text-align: center;
+  position: relative;
+  display: flex;
+}
+
+.share-main-users:last-child {
+  margin-right: 0px !important;
+}
+
+.share-users {
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  box-shadow: 1px 1px 1px 0 rgba(0,0,0,0.4);
+}
+
+.share-users img {
+  /* width: 100%; */
+  border-radius: 50%;
+}
+
+.share-users:hover {
+  cursor: pointer;
+}
+
+.share-user-control {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.share-user-control p {
+  margin-top: 3px;
+}
+
+.share-user1 {
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  display: flex;
+}
+
+.share-user1:first-child {
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.4);
+  border-radius: 50% !important;
+}
+
+.share-user1:first-child div {
+  width: auto !important;
+  height: auto !important;
+}
+
+.share-user1 img {
+  /* width: 100%; */
+  border-radius: 50%;
+  -webkit-user-select: none;
+}
+.share-main-mic {
+  width: auto;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.share-main-mic img {
+  height: 100% !important;
+  width: auto !important;
+  -webkit-user-drag: none;
+}
+
+.share-main-mic p {
+  margin-top: 3px;
+}
+
+.share-main-sharing {
+  width: auto;
+  height: auto;
+  font-family: "Lato";
+  text-align: center;
+  position: relative;
+  display: flex;
+}
+
+.share-parent-container {
+  width: 100%;
+  height: 100%;
+  user-select: none;
+}
+.share-video-container {
+  position: absolute;
+  background-color: black;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+.share-main-sharing .video-dropdown {
+  position: absolute;
+  width: 100px;
+  height: auto;
+  display: none;
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3);
+  border: solid 0.5px rgba(0, 0, 0, 0.15);
+  background-color: #fff;
+  border-radius: 2px;
+  left: -32px;
+  top: 76px;
+  z-index: 999;
+}
+.share-main-sharing .video-dropdown:before {
+  content: "";
+  background: url("../images/menu-icon.png") no-repeat;
+  width: 34px;
+  height: 16px;
+  position: absolute;
+  top: -16px;
+  right: 7px;
+}
+.share-main-sharing:hover .video-dropdown {
+  display: block;
+}
+.dropbox-video-container {
+  padding: 10px;
+}
+.video-box-new {
+  display: flex;
+  justify-content: center;
+}
+.dropdown-user-video {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  margin-bottom: 40px;
+  position: relative;
+  margin-left: 7px;
+  object-fit: cover;
+}
+.mrleft {
+  margin-left: 10px;
+}
+.stop-share-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sharer-text {
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.8);
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  font-size: 9px;
+  font-family: "Lato";
+}
+.sharer-video-cover {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+  border-radius: 50%;
+}

@@ -1,0 +1,53 @@
+.popup-window {
+    width: 383px;
+    height: 440px;
+    box-shadow: 0px 0px 5px #888888;
+    background-color: white;
+    border-radius: 10px;
+    -webkit-animation: fadein 0.4s; /* popup animation time */
+}
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+.close-button {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 25px;
+    right: 10px;
+    outline: none;
+    border: none;
+    background-color: transparent;
+}
+.user-list {
+    width: 371px;
+    height: 155px;
+}
+.h1Style {
+    width: 107px;
+    height: 27px;
+    font-family: Lato;
+    font-size: 22px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: -0.73px;
+    text-align: center;
+    color: #000062;
+    margin:0 auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-top: 15px;
+}
+.popup-header {
+    display: inline;
+}
+.hider {
+    display: none;
+}

@@ -1,0 +1,161 @@
+log.js:24 [HMR] Waiting for update signal from WDS...
+react-dom.development.js:24994 Download the React DevTools for a better development experience: https://fb.me/react-devtools
+default.js:49 DEVELOPMENT
+remote.js:18 Electron Deprecation Warning The 'remote' module is deprecated and will be disabled by default in a future version of Electron. To ensure a smooth upgrade and silence this warning, specify {enableRemoteModule: true} in the WebPreferences for this window.
+(anonymous) @ remote.js:18
+Promise.then (async)
+(anonymous) @ remote.js:16
+./lib/renderer/api/remote.js @ remote.js:366
+__webpack_require__ @ bootstrap:19
+loader @ module-list.ts:18
+(anonymous) @ define-properties.ts:1
+./src/Components/desktop/Home.js @ Home.js:6
+__webpack_require__ @ bootstrap:784
+fn @ bootstrap:150
+./src/App.js @ index.css:7
+__webpack_require__ @ bootstrap:784
+fn @ bootstrap:150
+./src/index.js @ index.css?f3f6:45
+__webpack_require__ @ bootstrap:784
+fn @ bootstrap:150
+1 @ index.js:8
+__webpack_require__ @ bootstrap:784
+checkDeferredModules @ bootstrap:45
+webpackJsonpCallback @ bootstrap:32
+(anonymous) @ main.chunk.js:1
+webpackHotDevClient.js:138 ./src/Components/desktop/InviteCoworker.js
+  Line 113:11:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+printWarnings @ webpackHotDevClient.js:138
+handleWarnings @ webpackHotDevClient.js:143
+push../node_modules/react-dev-utils/webpackHotDevClient.js.connection.onmessage @ webpackHotDevClient.js:210
+webpackHotDevClient.js:138 ./src/assets/js/webrtc.js
+  Line 362:65:   Expected to return a value in arrow function  array-callback-return
+  Line 471:69:   Expected to return a value in arrow function  array-callback-return
+  Line 516:3:    Duplicate name 'changeConnectionState'        no-dupe-class-members
+  Line 1603:11:  'self' is assigned a value but never used     no-unused-vars
+  Line 1854:11:  Expected a default case                       default-case
+  Line 2026:11:  'displayWidth' is already defined             no-redeclare
+  Line 2027:11:  'displayHeight' is already defined            no-redeclare
+  Line 2028:11:  'deltaX' is already defined                   no-redeclare
+  Line 2029:11:  'deltaY' is already defined                   no-redeclare
+printWarnings @ webpackHotDevClient.js:138
+handleWarnings @ webpackHotDevClient.js:143
+push../node_modules/react-dev-utils/webpackHotDevClient.js.connection.onmessage @ webpackHotDevClient.js:210
+security-warnings.ts:179 Electron Security Warning (Insecure Content-Security-Policy) This renderer process has either no Content Security
+    Policy set or a policy with "unsafe-eval" enabled. This exposes users of
+    this app to unnecessary security risks.
+
+For more information and help, consult
+https://electronjs.org/docs/tutorial/security.
+This warning will not show up
+once the app is packaged.
+(anonymous) @ security-warnings.ts:177
+Promise.then (async)
+warnAboutInsecureCSP @ security-warnings.ts:171
+logSecurityWarnings @ security-warnings.ts:296
+loadHandler @ security-warnings.ts:313
+async function (async)
+loadHandler @ security-warnings.ts:312
+Splash.js:88 Redirecting to  /Dashboard
+Splash.js:88 Redirecting to  /Dashboard
+Dashboard.js:870 Checking Auto Update -> Sending IPC to Main
+Dashboard.js:130 componentDidMount
+webrtc.js:147 Connecting...
+Splash.js:42 [Violation] 'setTimeout' handler took 177ms
+webrtc.js:2046 Socket connected undefined
+Dashboard.js:192 onConnected() Called
+webrtc.js:2104 Connection is ready to use
+Dashboard.js:119 Sending IPC to BG Window {type: "START-INOUT-SCHEDULE"}
+webrtc.js:977 Start group call in channel: 41
+webrtc.js:985 Created local peer connection
+webrtc.js:994 Requesting local stream {audio: {…}, video: true}
+webrtc.js:2046 /v1/user/login {message: "Ok", user: {…}, workspaceId: 41, iceServers: Array(2), code: 200}
+websocket.js:159 [Violation] 'message' handler took 196ms
+webrtc.js:2046 /v1/user/listOnline {message: "Ok", users: Array(17), code: 200}
+webrtc.js:2046 /v1/user/dataUpdated {message: "Ok", userId: 197, data: {…}, code: 200}
+[Violation] 'setInterval' handler took <N>ms
+[Violation] 'setInterval' handler took <N>ms
+[Violation] 'setInterval' handler took <N>ms
+[Violation] 'setInterval' handler took <N>ms
+[Violation] 'setInterval' handler took <N>ms
+[Violation] 'setInterval' handler took <N>ms
+[Violation] 'setInterval' handler took <N>ms
+[Violation] 'setInterval' handler took <N>ms
+[Violation] 'setInterval' handler took <N>ms
+[Violation] 'setInterval' handler took <N>ms
+[Violation] 'setInterval' handler took <N>ms
+[Violation] 'setInterval' handler took <N>ms
+[Violation] 'setInterval' handler took <N>ms
+[Violation] 'setInterval' handler took <N>ms
+[Violation] 'setInterval' handler took <N>ms
+Dashboard.js:441 getDevices {audio: Array(3), video: Array(3)}
+Dashboard.js:280 onSelfie
+webrtc.js:1020 Received local stream
+webrtc.js:1625 Add publisher {publisherId: 7978968117467408, userId: 177, workspaceId: 41, audio: true, video: true}
+webrtc.js:1287 Viewing channel: 41, publisher: 197-41-7978968117467408
+webrtc.js:2046 /v1/sfu/publishers {message: "Ok", publishers: Array(1), code: 200}
+webrtc.js:2046 /v1/user/statusUpdated {message: "Ok", userId: 177, status: {…}, code: 200}
+webrtc.js:1661 Watching started
+webrtc.js:2046 /v1/sfu/publisher-watch {message: "Ok", publisherId: "197-41-7978968117467408", sdpOffer: {…}, code: 200}
+Dashboard.js:337 onSfuUserAdded 41 177 null 41 true MediaStream {id: "janus", active: true, onaddtrack: null, onremovetrack: null, onactive: null, …}
+Dashboard.js:337 onSfuUserAdded 41 177 null 41 true MediaStream {id: "janus", active: true, onaddtrack: null, onremovetrack: null, onactive: null, …}
+webrtc.js:2046 /v1/sfu/publishers {message: "Ok", publishers: Array(1), code: 200}
+webrtc.js:2046 /v1/sfu/publishers {message: "Ok", publishers: Array(1), code: 200}
+webrtc.js:1327 Connection state for publisher 197-41-7978968117467408 new
+webrtc.js:2046 /v1/sfu/start {message: "Ok", sdpAnswer: {…}, publisherId: 2948175034944803, workspaceId: 41, workspace: {…}, …}
+webrtc.js:2046 /v1/sfu/connected {message: "Ok", sdpAnswer: {…}, publisherId: 2948175034944803, workspaceId: 41, workspace: {…}, …}
+webrtc.js:1572 Answer added
+Dashboard.js:273 onSelfieStop
+Dashboard.js:259 startSfuCall
+webrtc.js:1327 Connection state for publisher 197-41-7978968117467408 connected
+webrtc.js:2046 /v1/sfu/publishers {message: "Ok", publishers: Array(1), code: 200}
+webrtc.js:2046 /v1/user/statusUpdated {message: "Ok", userId: 197, status: {…}, code: 200}
+webrtc.js:2046 /v1/user/statusUpdated {message: "Ok", userId: 197, status: {…}, code: 200}
+webrtc.js:2046 /v1/user/statusUpdated {message: "Ok", userId: 197, status: {…}, code: 200}
+webrtc.js:2046 /v1/user/statusUpdated {message: "Ok", userId: 197, status: {…}, code: 200}
+webrtc.js:2046 /v1/user/statusUpdated {message: "Ok", userId: 197, status: {…}, code: 200}
+webrtc.js:2046 /v1/user/statusUpdated {message: "Ok", userId: 197, status: {…}, code: 200}
+webrtc.js:2046 /v1/user/statusUpdated {message: "Ok", userId: 177, status: {…}, code: 200}
+webrtc.js:2046 /v1/user/statusUpdated {message: "Ok", userId: 197, status: {…}, code: 200}
+webrtc.js:2046 /v1/user/statusUpdated {message: "Ok", userId: 197, status: {…}, code: 200}
+webrtc.js:2046 /v1/user/statusUpdated {message: "Ok", userId: 177, status: {…}, code: 200}
+webrtc.js:2046 /v1/user/statusUpdated {message: "Ok", userId: 197, status: {…}, code: 200}
+webrtc.js:2046 /v1/user/statusUpdated {message: "Ok", userId: 177, status: {…}, code: 200}
+webrtc.js:2046 /v1/user/statusUpdated {message: "Ok", userId: 197, status: {…}, code: 200}
+webrtc.js:2046 /v1/user/statusUpdated {message: "Ok", userId: 177, status: {…}, code: 200}
+webrtc.js:2046 /v1/user/statusUpdated {message: "Ok", userId: 177, status: {…}, code: 200}
+webrtc.js:2046 /v1/user/statusUpdated {message: "Ok", userId: 197, status: {…}, code: 200}
+webrtc.js:2046 /v1/user/statusUpdated {message: "Ok", userId: 177, status: {…}, code: 200}
+webrtc.js:2046 /v1/user/statusUpdated {message: "Ok", userId: 197, status: {…}, code: 200}
+webrtc.js:2046 /v1/user/statusUpdated {message: "Ok", userId: 177, status: {…}, code: 200}
+webrtc.js:2046 /v1/user/statusUpdated {message: "Ok", userId: 197, status: {…}, code: 200}
+webrtc.js:2046 /v1/user/statusUpdated {message: "Ok", userId: 197, status: {…}, code: 200}
+webrtc.js:2046 /v1/user/statusUpdated {message: "Ok", userId: 177, status: {…}, code: 200}
+webrtc.js:2046 /v1/user/statusUpdated {message: "Ok", userId: 177, status: {…}, code: 200}
+webrtc.js:2046 /v1/user/statusUpdated {message: "Ok", userId: 177, status: {…}, code: 200}
+webrtc.js:2046 /v1/user/statusUpdated {message: "Ok", userId: 177, status: {…}, code: 200}
+webrtc.js:2046 /v1/user/statusUpdated {message: "Ok", userId: 177, status: {…}, code: 200}
+webrtc.js:2046 /v1/user/statusUpdated {message: "Ok", userId: 177, status: {…}, code: 200}
+webrtc.js:2046 /v1/user/statusUpdated {message: "Ok", userId: 197, status: {…}, code: 200}
+webrtc.js:2046 /v1/user/statusUpdated {message: "Ok", userId: 197, status: {…}, code: 200}
+webrtc.js:2046 /v1/user/statusUpdated {message: "Ok", userId: 197, status: {…}, code: 200}
+webrtc.js:2046 /v1/user/statusUpdated {message: "Ok", userId: 197, status: {…}, code: 200}
+webrtc.js:2046 /v1/user/statusUpdated {message: "Ok", userId: 177, status: {…}, code: 200}
+webrtc.js:2046 /v1/user/statusUpdated {message: "Ok", userId: 177, status: {…}, code: 200}
+webrtc.js:2046 /v1/user/statusUpdated {message: "Ok", userId: 177, status: {…}, code: 200}
+webrtc.js:2046 /v1/user/statusUpdated {message: "Ok", userId: 177, status: {…}, code: 200}
+webrtc.js:2046 /v1/user/statusUpdated {message: "Ok", userId: 177, status: {…}, code: 200}
+webrtc.js:2046 /v1/user/statusUpdated {message: "Ok", userId: 197, status: {…}, code: 200}
+webrtc.js:2046 /v1/user/statusUpdated {message: "Ok", userId: 177, status: {…}, code: 200}
+webrtc.js:2046 /v1/user/statusUpdated {message: "Ok", userId: 197, status: {…}, code: 200}
+webrtc.js:2046 /v1/user/statusUpdated {message: "Ok", userId: 197, status: {…}, code: 200}
+webrtc.js:2046 /v1/user/statusUpdated {message: "Ok", userId: 197, status: {…}, code: 200}
+webrtc.js:2046 /v1/user/statusUpdated {message: "Ok", userId: 177, status: {…}, code: 200}
+​ /v1/user/statusUpdated {message: "Ok", userId: 177, status: {…}, code: 200}
+​ /v1/user/statusUpdated {message: "Ok", userId: 197, status: {…}, code: 200}
+​ /v1/user/statusUpdated {message: "Ok", userId: 197, status: {…}, code: 200}
+​ /v1/user/statusUpdated {message: "Ok", userId: 197, status: {…}, code: 200}
+​ /v1/user/statusUpdated {message: "Ok", userId: 197, status: {…}, code: 200}
+​ /v1/user/statusUpdated {message: "Ok", userId: 197, status: {…}, code: 200}
+​ /v1/user/statusUpdated {message: "Ok", userId: 177, status: {…}, code: 200}
+​ /v1/user/statusUpdated {message: "Ok", userId: 177, status: {…}, code: 200}

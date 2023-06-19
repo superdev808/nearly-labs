@@ -1,0 +1,4 @@
+{
+  "plugins": ["classPrivateMethods"],
+  "parser": ["babel-eslint"]
+}
